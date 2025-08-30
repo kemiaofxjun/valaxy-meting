@@ -29,5 +29,11 @@ const visible = useVisible()
 
 <template>
   <!-- eslint-disable-next-line vue/component-name-in-template-casing -->
-  <meting-js v-show="visible" v-bind="props" />
+  <meting-js
+    v-show="visible"
+    :id="props.id"
+    :server="props.server"
+    :type="props.type"
+    :api="props.api"
+  />
 </template>
