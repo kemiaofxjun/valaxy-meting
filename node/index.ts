@@ -8,6 +8,7 @@ export interface MetingOptions {
    */
   props?: {
     'id'?: string
+    'api'?: string
     'server'?: 'netease' | 'tencent' | 'kugou' | 'xiami' | 'baidu'
     'type'?: 'song' | 'album' | 'artist' | 'playlist' | 'search'
     'auto'?: 'netease' | 'tencent' | 'xiami'

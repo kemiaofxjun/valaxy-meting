@@ -7,6 +7,7 @@ const props = withDefaults(defineProps<{
   id: '308168565',
   server: 'netease',
   type: 'playlist',
+  api: 'https://meting.051531.xyz/meting',
 })
 
 export interface MetingJsProps {
